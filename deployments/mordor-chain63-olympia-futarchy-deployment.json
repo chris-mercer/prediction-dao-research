@@ -1,0 +1,21 @@
+{
+  "network": "mordor",
+  "chainId": 63,
+  "deployer": "0x3b0952fB8eAAC74E56E176102eBA70BAB1C81537",
+  "saltPrefix": "OlympiaDAO-v1.0-",
+  "contracts": {
+    "welfareMetricOracleAdapter": "0x167F60B20583fA897Ccb482689f0c29D0450aB22",
+    "lmsrMarketMaker": "0x83fca795f56f91b888A51Bb90331636fDd1f94A7",
+    "olympiaFutarchyGovernor": "0xEc4AA90c812a997EA0Aa5BDc1A5777B75fB2db54"
+  },
+  "dependencies": {
+    "welfareRegistry": "0x034494F9eA0821FB6167EcA41A6850fd2D11b8b1",
+    "proposalRegistry": "0x095146344Ab39a0cbF37494Cb50fb293E55AF76E",
+    "marketFactory": "0xc56631DB29c44bb553a511DD3d4b90d64C95Cd9C",
+    "privacyCoordinator": "0x9897CBb96b1931A3c019A9d2126dab59630D4414",
+    "oracleResolver": "0x2AaCC0D91AF255667683ece0A363649Cc9Ed8776",
+    "ragequitModule": "0xD6b6eDE9EacDC90e20Fe95Db1875EaBB07004A1c",
+    "treasuryVault": "0x3b0952fB8eAAC74E56E176102eBA70BAB1C81537"
+  },
+  "timestamp": "2026-02-27T07:54:33.757Z"
+}

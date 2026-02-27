@@ -4,7 +4,7 @@
  * These addresses are deterministically deployed and should remain consistent
  * across deployments. Update these if contracts are redeployed.
  *
- * Last updated: 2026-01-30 (FriendGroupMarketFactory v1.1 - bookmaker + resolution types)
+ * Last updated: 2026-02-27 (ECIP-1117 Olympia Futarchy contracts)
  */
 
 export const DEPLOYED_CONTRACTS = {
@@ -43,6 +43,11 @@ export const DEPLOYED_CONTRACTS = {
   // Registry Contracts (04-deploy-registries.js)
   marketCorrelationRegistry: '0x2a820A38997743fC3303cDcA56b996598963B909',
   nullifierRegistry: '0x5569FEe7f8Bab39EEd08bf448Dd6824640C7d272',
+
+  // ECIP-1117 Olympia Futarchy Contracts (07-deploy-olympia-futarchy.js)
+  olympiaFutarchyGovernor: '0xEc4AA90c812a997EA0Aa5BDc1A5777B75fB2db54',
+  lmsrMarketMaker: '0x83fca795f56f91b888A51Bb90331636fDd1f94A7',
+  welfareMetricOracleAdapter: '0x167F60B20583fA897Ccb482689f0c29D0450aB22',
 
   // Back-compat aliases
   roleManager: '0x55e6346Be542B13462De504FCC379a2477D227f0',

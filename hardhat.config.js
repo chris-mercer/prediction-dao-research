@@ -241,6 +241,12 @@ module.exports = {
       // Mount floppy and set FLOPPY_KEYSTORE_PASSWORD to use
       accounts: floppyKeys,
     },
+    "mordor-local": {
+      url: "http://localhost:8545",
+      chainId: 63,
+      accounts: floppyKeys,
+      // Use local geth node when public RPC fee cap blocks large deployments
+    },
     // Example: Mainnet with floppy keystore (uncomment when ready to use)
     // Requires: npm run floppy:mount && npm run floppy:create (one-time setup)
     // "mainnet-floppy": {
