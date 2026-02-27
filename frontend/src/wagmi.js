@@ -95,7 +95,7 @@ const resolveAppUrl = () => {
   }
 
   // As a last resort, return a fallback domain
-  return 'https://fairwins.app'
+  return 'https://olympia.etccooperative.org'
 }
 
 const appUrl = resolveAppUrl()
@@ -115,10 +115,10 @@ export const config = createConfig({
     walletConnect({
       projectId: walletConnectProjectId,
       metadata: {
-        name: 'Prediction DAO',
-        description: 'Decentralized prediction markets on Ethereum Classic',
+        name: 'Olympia Futarchy',
+        description: 'Futarchy governance for Ethereum Classic (ECIP-1117)',
         url: appUrl,
-        icons: [`${appUrl}/assets/fairwins_no-text_logo.svg`]
+        icons: [`${appUrl}/assets/olympia-logo.svg`]
       },
       showQrModal: true,
     }),

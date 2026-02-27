@@ -1,7 +1,7 @@
 {
-  "name": "prediction-dao-research",
+  "name": "olympia-futarchy",
   "version": "1.0.0",
-  "description": "Futarchy Prediction DAO with privacy-preserving mechanisms",
+  "description": "Olympia DAO Futarchy Governance for Ethereum Classic (ECIP-1117/1118)",
   "main": "index.js",
   "scripts": {
     "compile": "hardhat compile",
