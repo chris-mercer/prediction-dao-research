@@ -167,6 +167,10 @@ site/
 .claude/reports/
 .claude/debug.log
 
+# Local/test deployment artifacts (hardhat chain 1337, localhost)
+deployments/hardhat-*.json
+deployments/localhost-*.json
+
 # Planning & internal docs
 SESSION_NOTES.md
 PLANNING.md
