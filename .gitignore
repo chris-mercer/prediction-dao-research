@@ -161,3 +161,13 @@ medusa-corpus/
 
 # MkDocs
 site/
+
+# Claude Code local workspace and internal dev files
+.claude/
+CLAUDE.md
+.local/
+SESSION_NOTES.md
+PLANNING.md
+SCRATCH.md
+*.scratch.*
+*.draft.*
